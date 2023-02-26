@@ -1,13 +1,82 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+/* ------------------------------------------------ Navbar.js Css ----------------------------------------- */
+
+.Navbar{
+  width: 100vw;
+  background-color: rgb(120, 110, 255);
+  margin: 0;
+  padding: 0;  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+h2{
+  color: rgb(255, 255, 255);
+  /* font-style: italic; */
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 20px;
+  margin-top: 0;
+  padding: 5px;
+}
+
+p{
+  color: rgb(255, 255, 255);
+  /* font-style: italic; */
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 5px 0px 10px 22px;
+  padding: 3px;
+}
+
+
+
+/* //////////////////////////////////////// App.js //////////////////////////////////////////////// */
+
+.input-div{
+  text-align: center;
+  margin-top: 15vh;
+  display: block;
+}
+.input-div h4{
+  font-size: 20px;
+  color: rgb(75, 74, 74);
+}
+
+#password{
+  width: 25vw;
+  padding: 5px;
+  background-color: rgb(249, 248, 192);
+  border-radius: 2px;
+}
+#password:focus{
+  outline: none;
+}
+
+.input-div button{
+  background-color: rgb(253, 96, 96);
+  color: aliceblue;
+  border-width: 0ch;
+  padding: 6px;
+  width: 10vw;
+  border-radius: 2px;
+  margin: 15px;
+}
+.input-div button:hover{
+  opacity: 0.9;
+  box-shadow: 0px 0px 1px 1px rgb(97, 96, 96);
+}
+
+.errorMessage{
+  color: red;
+}
+
+.result{
+  color: rgb(122, 122, 139);
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.result span{
+  color: rgb(7, 165, 39);
+  font-weight: 600;
 }
